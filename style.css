@@ -1,0 +1,130 @@
+.logo {
+    height: 35px;
+    width: auto;
+}
+
+nav {
+    background-color: white;
+}
+
+nav ul li {
+    margin-left: 1em;
+}
+
+.topbar {
+    background-color: #004AAD;
+}
+
+.topbar a:link, .topbar a:visited, footer a:link, footer a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+.topbar a:hover, footer a:hover {
+    color: #FFD046;
+}
+
+.topbar i {
+    font-size: 1.3rem;
+    padding: 1rem 0.3rem;
+}
+
+#hero {
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(./img/tarimas.jpg);
+    background-size: cover;
+    background-position: center center;
+    /* background-attachment: fixed; */
+}
+
+#hero .container {
+    height: 90vh;
+}
+
+#hero h1 {
+    color: white;
+}
+
+.features-us {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url(./img/19742.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.btn-main {
+    text-decoration: none;
+    color: white;
+    background-color: #FFD046;
+    padding: 1rem 1.5rem;
+    border: none;
+    border-radius: 2rem;
+}
+
+.btn-main:hover {
+    background-color: #f7c329;
+    color: white;
+}
+
+.btn-main:active {
+    background-color: #f1be24;
+    color: white;
+}
+
+#us-hero {
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(img/nosotros.jpg);
+    background-size: cover;
+    background-position: center center;
+    /* background-attachment: fixed; */
+}
+
+.formulario-subtitulo {
+    color: #004AAD;
+    font-size: 1.4rem;
+}
+
+.input-box {
+    border: 1px solid #FFD046;
+    padding: 0.5rem;
+    display: flex;
+}
+
+.input-box input, .input-box textarea {
+    flex: 1;
+    border: none;
+    outline: none;
+}
+
+#formulario .btn-main {
+    font-size: 1rem;
+}
+
+.input-box span {
+    color: #FFD046;
+    text-align: right;
+}
+
+#contacto-directo a:link, #contacto-directo a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+#contacto-directo a:hover {
+    color: #FFD046;
+}
+
+  @media screen and (max-width: 600px) {
+    h1 {
+      font-size: 2rem;
+    }
+    .btn-main {
+        font-size: 1rem;
+    }
+  }
+
+  @media screen and (min-width: 600px) {
+    h1 {
+      font-size: 4rem;
+    }
+    .btn-main {
+        font-size: 1.5rem;
+    }
+  }
